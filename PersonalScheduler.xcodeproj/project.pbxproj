@@ -10,7 +10,7 @@
 		544DC37B299343C7002E20CF /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 544DC37A299343C7002E20CF /* KakaoSDKAuth */; };
 		544DC37D299343C7002E20CF /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 544DC37C299343C7002E20CF /* KakaoSDKCommon */; };
 		544DC37F299343C7002E20CF /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 544DC37E299343C7002E20CF /* KakaoSDKUser */; };
-		544DC3832993675E002E20CF /* KaKaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544DC3822993675E002E20CF /* KaKaoAuthVM.swift */; };
+		544DC3832993675E002E20CF /* KaKaoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544DC3822993675E002E20CF /* KaKaoAPIManager.swift */; };
 		63AAAB022967EA2600775EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AAAB012967EA2600775EC3 /* AppDelegate.swift */; };
 		63AAAB042967EA2600775EC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AAAB032967EA2600775EC3 /* SceneDelegate.swift */; };
 		63AAAB062967EA2600775EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AAAB052967EA2600775EC3 /* ViewController.swift */; };
@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		544DC38029934D7F002E20CF /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		544DC3822993675E002E20CF /* KaKaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKaoAuthVM.swift; sourceTree = "<group>"; };
+		544DC3822993675E002E20CF /* KaKaoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKaoAPIManager.swift; sourceTree = "<group>"; };
 		63AAAAFE2967EA2600775EC3 /* PersonalScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AAAB012967EA2600775EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63AAAB032967EA2600775EC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		544DC3812993674A002E20CF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				544DC3822993675E002E20CF /* KaKaoAuthVM.swift */,
+				544DC3822993675E002E20CF /* KaKaoAPIManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544DC3832993675E002E20CF /* KaKaoAuthVM.swift in Sources */,
+				544DC3832993675E002E20CF /* KaKaoAPIManager.swift in Sources */,
 				63AAAB062967EA2600775EC3 /* ViewController.swift in Sources */,
 				63AAAB022967EA2600775EC3 /* AppDelegate.swift in Sources */,
 				63AAAB042967EA2600775EC3 /* SceneDelegate.swift in Sources */,

@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let manager = KaKaoApiManager()
+    let manager = KaKaoAPIManager()
     
     let titleLabel: UILabel = {
       let label = UILabel()

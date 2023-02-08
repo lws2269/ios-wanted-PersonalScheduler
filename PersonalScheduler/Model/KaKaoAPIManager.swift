@@ -1,5 +1,5 @@
 //
-//  KaKaoAuthVM.swift
+//  KaKaoAPIManager.swift
 //  PersonalScheduler
 //
 //  Created by leewonseok on 2023/02/08.
@@ -9,7 +9,7 @@ import Foundation
 import KakaoSDKAuth
 import KakaoSDKUser
 
-class KaKaoApiManager {
+class KaKaoAPIManager {
     var isLoggedIn : Bool = false
     
     func loginWithApp() {
@@ -20,6 +20,7 @@ class KaKaoApiManager {
                 print("loginWithKakaoTalk() success.")
                 self.isLoggedIn = true
                 _ = oauthToken
+                
             }
         }
     }
@@ -30,6 +31,7 @@ class KaKaoApiManager {
                 print(error)
             } else {
                 print("loginWithKakaoAccount() success.")
+                
                 self.isLoggedIn = true
                 _ = oauthToken
             }
